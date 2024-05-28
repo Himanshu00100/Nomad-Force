@@ -1,0 +1,9 @@
+/* key animation */
+
+.key:hover{
+    color:black;
+}
+.key:hover .arrow{
+    margin-bottom: 15px;
+    opacity:1;
+}
