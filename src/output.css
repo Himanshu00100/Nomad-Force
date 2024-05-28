@@ -590,9 +590,18 @@ video {
   z-index: 20;
 }
 
+.z-10 {
+  z-index: 10;
+}
+
 .my-\[5px\] {
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+.my-\[112px\] {
+  margin-top: 112px;
+  margin-bottom: 112px;
 }
 
 .mb-\[100px\] {
@@ -767,6 +776,38 @@ video {
   height: 424.325px;
 }
 
+.h-\[9\] {
+  height: 9;
+}
+
+.h-\[947\.600p\] {
+  height: 947.600p;
+}
+
+.h-\[947\.600px\] {
+  height: 947.600px;
+}
+
+.h-\[full\] {
+  height: full;
+}
+
+.h-\[612px\] {
+  height: 612px;
+}
+
+.h-\[477\] {
+  height: 477;
+}
+
+.h-\[477px\] {
+  height: 477px;
+}
+
+.h-\[50\%\] {
+  height: 50%;
+}
+
 .w-\[1\%\] {
   width: 1%;
 }
@@ -801,6 +842,10 @@ video {
 
 .w-\[50\] {
   width: 50;
+}
+
+.w-\[\] {
+  width: ;
 }
 
 .rotate-\[-35deg\] {
@@ -869,6 +914,14 @@ video {
 .gap-x-\[25px\] {
   -moz-column-gap: 25px;
        column-gap: 25px;
+}
+
+.gap-y-\[\] {
+  row-gap: ;
+}
+
+.gap-y-\[20px\] {
+  row-gap: 20px;
 }
 
 .self-end {
@@ -955,6 +1008,38 @@ video {
   background-color: rgb(234 179 8 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#\] {
+  background-color: #;
+}
+
+.bg-\[\#f9f9f9\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 249 249 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#od\] {
+  background-color: #od;
+}
+
+.bg-\[\#od6efd\] {
+  background-color: #od6efd;
+}
+
+.bg-\[\#0d6efd\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(13 110 253 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#198\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 153 136 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#198754\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(25 135 84 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -983,6 +1068,10 @@ video {
 
 .p-20 {
   padding: 5rem;
+}
+
+.p-\[112px\] {
+  padding: 112px;
 }
 
 .px-\[104\.800px\] {
@@ -1025,6 +1114,41 @@ video {
   padding-right: ;
 }
 
+.py-\[112px\] {
+  padding-top: 112px;
+  padding-bottom: 112px;
+}
+
+.px-\[104\.200px\] {
+  padding-left: 104.200px;
+  padding-right: 104.200px;
+}
+
+.px-\[104\.\] {
+  padding-left: 104.;
+  padding-right: 104.;
+}
+
+.px-\[104\.800\] {
+  padding-left: 104.800;
+  padding-right: 104.800;
+}
+
+.px-\[12px\] {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.py-\[\] {
+  padding-top: ;
+  padding-bottom: ;
+}
+
+.py-\[4px\] {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
 .pb-\[32px\] {
   padding-bottom: 32px;
 }
@@ -1059,6 +1183,10 @@ video {
 
 .pb-\[48px\] {
   padding-bottom: 48px;
+}
+
+.pt-\[112px\] {
+  padding-top: 112px;
 }
 
 .text-center {
