@@ -1,4 +1,8 @@
 /* key animation */
+::selection{
+    background-color:black;
+    color:white;
+}
 
 .key:hover{
     color:black;
@@ -6,4 +10,10 @@
 .key:hover .arrow{
     margin-bottom: 15px;
     opacity:1;
+}
+
+/* link animation of hero 2 */
+.link:hover .underline{
+    opacity:1;
+    width:100%;
 }
