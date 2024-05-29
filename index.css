@@ -17,3 +17,9 @@
     opacity:1;
     width:100%;
 }
+/* footers's link animation  */
+.keys:hover .underline{
+    opacity:1;
+    width:100%;
+    
+}
