@@ -78,11 +78,13 @@
     <main class="w-full  bg-white z-0">
         <!-- video div from here -->
         <div class="w-full h-[700px]  overflow-y-hidden relative">
-            <span
-                class="absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent from-65%  to-black   text-white flex flex-col justify-center items-center pt-[100px]">
-                <h1 class="text-[72px] font-[900]">Nomad Force</h1>
-                <p class="text-[20px] font-[300]">create a great video for your <span
-                        class="text-[25px] font-[700] underline underline-offset-[10px]">website</span></p>
+            <span "
+                class=" absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent from-65% to-black
+                text-white flex flex-col justify-center items-center pt-[100px]">
+                <h1 data-aos="zoom-in" data-aos-delay="200" class="text-[72px] font-[900]">Nomad Force</h1>
+                <p data-aos="zoom-in" data-aos-delay="500" class="text-[20px] font-[300]">create a great video for your
+                    <span class="text-[25px] font-[700] underline underline-offset-[10px]">website</span>
+                </p>
             </span>
             <video class="w-full bg-white" src="./assets//hero1/h1.mp4" autoplay muted loop></video>
         </div>
@@ -224,9 +226,9 @@
         <!-- portfolio section ends here -->
 
         <!-- news and event section starts from here -->
-        <div class="w-full h-[947.600px] bg-[#f9f9f9] my-[112px] py-[112px]">
+        <div class="w-full h-[947.600px] bg-[#f9f9f9] mt-[112px] py-[112px]">
             <h2 class="text-[42px] font-[900] mb-[48px] text-center">News & Events</h2>
-            <div class="w-full h-[612px]  flex gap-x-[25px] px-[104.800px]">
+            <div data-aos="fade-up" class="w-full h-[612px]  flex gap-x-[25px] px-[104.800px]">
                 <!-- left div -->
                 <div class="w-[50%] h-full ">
                     <!-- img -->
@@ -234,6 +236,13 @@
                         <span class="absolute bg-[#ffc107] text-white px-[12px] py-[4px] z-10">News</span>
                         <img class="w-full hover:scale-[1.05] transition-all duration-[2000ms]"
                             src="./assets//news/caroline-lm-uqveD8dYPUM-unsplash.jpg" alt="">
+                    </div>
+                    <div class="w-full h-[135px]  pt-[20px] px-[15px] flex flex-col items-start">
+                        <a class="text-[24px] font-[700] text-[#565758] hover:text-black duration-300" href="#">The rise
+                            of the gig economy spells the end for <br> these workers the old system </a>
+                        <span class="flex justify-center items-center gap-x-[10px] text-[#565758] mt-[15px] ">
+                            <p class="text-[16px] font-[500] opacity-[0.6]"> 22 hours ago</p>
+                        </span>
                     </div>
                 </div>
                 <div class="w-[50%] h-[477px]  flex flex-col gap-y-[20px]">
@@ -244,21 +253,93 @@
                             <img class="h-full hover:scale-[1.05] transition-all duration-[2000ms]"
                                 src="./assets/news/jean-philippe-delberghe-MmanXAs1sKw-unsplash.jpeg" alt="">
                         </div>
-                        <div class="w-[50%] h-full "></div>
+                        <div class="w-[50%] h-full pt-[10px] flex flex-col items-start ">
+                            <a class="text-[24px] font-[700] text-[#565758] hover:text-black duration-300" href="#">Job
+                                Opportunities: <br> Digital, Marketing</a>
+                            <span
+                                class="flex justify-center items-center gap-x-[10px] text-[#565758] mt-[15px] opacity-[0.7] ">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <p class="text-[16px] font-[500]"> Alaska, &#160; August 6, 2021</p>
+                            </span>
+                        </div>
                     </div>
-                    <div class="w-full h-[50%]  flex gap-x-[20px]">
+                    <div data-aos="fade-up" data-aos-delay="300" class="w-full h-[50%]  flex gap-x-[20px]">
                         <!-- img2 -->
                         <div class="w-[50%] h-full  overflow-hidden relative">
                             <span class="absolute bg-[#198754] text-white px-[12px] py-[4px] z-10">News</span>
                             <img class="h-full hover:scale-[1.05] transition-all duration-[2000ms]"
                                 src="./assets/news/maria-stewart-p4tj0g-_aMM-unsplash.jpeg" alt="">
                         </div>
-                        <div class="w-[50%] h-full "></div>
+                        <div class="w-[50%] h-full flex flex-col items-start">
+                            <a class="text-[24px] font-[700] text-[#565758] hover:text-black duration-300" href="#">What
+                                happened to new <br> viral video?</a>
+                            <span class="flex justify-center items-center gap-x-[10px] text-[#565758] mt-[15px] ">
+                                <p class="text-[16px] font-[500] opacity-[0.6]"> 6 days ago</p>
+                            </span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- news and event section ends here -->
+
+        <!-- write to us section from here -->
+        <div data-aos="fade-up" class="w-full h-[580px]  my-[112px] px-[104.800px] bg-white">
+            <div class="w-full h-full  flex justify-center">
+                <form data-aos="fade-up" class="w-[746px] h-[580px] " action="">
+                    <h2 data-aos="fade-up" data-aos-delay="" class="text-[50px] font-[700] text-center mb-[24px]">Dont'
+                        be shy, write to us</h2>
+                    <div>
+                        <div class="w-full h-[81.600px] flex mb-[24px] gap-x-[20px]">
+                            <!-- name -->
+                            <div class="w-[50%] h-full ">
+                                <label for="" class="text-[16px] font-[700] text-[#717275]">Name <span
+                                        class="text-red-500">*</span> <br>
+                                    <input
+                                        class="w-full mt-[8px] p-[12px] border-[1.5px] border-gray-300 focus:outline-none  "
+                                        type="text" placeholder="Full name">
+                                </label>
+                            </div>
+                            <!-- email address -->
+                            <div class="w-[50%] h-full">
+                                <label for="" class="text-[16px] font-[700] text-[#717275]">Email <span
+                                        class="text-red-500">*</span> <br>
+                                    <input
+                                        class="w-full mt-[8px] p-[12px] border-[1.5px] border-gray-300 focus:outline-none  "
+                                        type="text" placeholder="Email address">
+                                </label>
+                            </div>
+                        </div>
+                        <label for="" class="text-[16px] font-[700] text-[#717275] ">How can we help you? <br>
+                            <textarea
+                                class="w-full h-[144px] border-[1.5px] border-gray-300 p-[12px] mt-[8px] font-[500] "
+                                name="" id="" placeholder="Tell us about the project"></textarea>
+                        </label>
+                        <div class="w-full mt-[10px] px-[10px]">
+                            <h3 class=" text-[#717275] font-[700] text-[18px] mb-[10px]">Services <span
+                                    class="text-red-500">*</span></h3>
+                            <span class="w-full flex gap-x-[100px]">
+                                <label for="" class="flex items-center gap-x-[8px] text-[18px]">
+                                    <input type="checkbox" class="accent-blue-400 text-white"> Branding
+                                </label>
+                                <label for="" class="flex items-center gap-x-[8px] text-[18px]">
+                                    <input type="checkbox" class="accent-blue-400 text-white "> Digital Experiences
+                                </label>
+                                <label for="" class="flex items-center gap-x-[8px] text-[18px]">
+                                    <input type="checkbox"
+                                        class="accent-blue-400 text-white checked:text-white checked:outline-none "> Web
+                                    Development
+                                </label>
+                            </span>
+                        </div>
+                        <button type="submit"
+                            class="text-white w-[310px] text-[16px] font-[700] bg-black p-[16px] rounded-full mt-[40px] ml-[200px]">SEND
+                            MESSAGE</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- write to us section ends here -->
     </main>
 
 
